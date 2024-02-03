@@ -1,0 +1,286 @@
+.wrapper {
+  width: 40%;
+  height: 151vh;
+  background-color: #b0a695;
+  position: absolute;
+  float: left;
+}
+
+.wrapper .innerWrapper {
+  width: 100%;
+  height: auto;
+  left: -14%;
+  right: -40%;
+  transform: translate(40%, 20%);
+  position: fixed;
+}
+
+.wrapper img {
+  width: 25%;
+  padding: 8px;
+  transition: color 0.3s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.wrapper img:hover {
+  transform: scale(1.1);
+}
+
+.wrapper .logoContain {
+  display: flex;
+  flex-direction: column;
+  left: -59%;
+  right: -40%;
+  transform: translate(40%, 12rem);
+  position: fixed;
+}
+
+.wrapper2 {
+  width: 40%;
+  margin-left: 55%;
+  margin-top: 75px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerWrapper2 h3 {
+  text-align: center;
+}
+
+.innerWrapper2 img {
+  width: 100%;
+}
+
+.hobby h4 {
+  font-weight: 400;
+}
+.innerWrapper2 .hobby {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  body {
+    height: auto;
+  }
+  .container {
+    height: auto;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 13px;
+  }
+
+  .link {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .logo {
+    margin-top: 15px;
+    padding-left: 0px;
+    font-size: 18px;
+  }
+
+  .link a {
+    margin: 5px 0;
+  }
+
+  .wrapper {
+    height: 131vh;
+  }
+
+  .wrapper2 {
+    font-size: 12px;
+  }
+
+  .wrapper .innerWrapper {
+    width: 125%;
+    height: auto;
+    left: -14%;
+    right: -40%;
+    transform: translate(27%, 30%);
+    position: fixed;
+  }
+
+  .wrapper .logoContain {
+    display: flex;
+    flex-direction: column;
+    left: -59%;
+    right: -40%;
+    transform: translate(37%, 9.2rem);
+    position: fixed;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    height: auto;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .link {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .logo {
+    margin-top: 15px;
+    padding-left: 0px;
+    font-size: 18px;
+  }
+
+  .link a {
+    margin: 5px 0;
+  }
+
+  .wrapper {
+    width: 0%;
+    height: 70%;
+  }
+
+  .wrapper2 {
+    margin-top: -5%;
+    margin-left: 18px;
+    width: 90%;
+  }
+
+  .innerWrapper2 .h2 {
+    margin-top: 15px;
+  }
+  .innerWrapper2 h1 {
+    font-size: 10px;
+  }
+
+  .wrapper .innerWrapper {
+    opacity: 0;
+  }
+
+  .wrapper .logoContain {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    bottom: 40%;
+    left: 0;
+    position: relative;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    height: auto;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .link {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .logo {
+    margin-top: 15px;
+    padding-left: 0px;
+    font-size: 18px;
+  }
+
+  .link a {
+    margin: 5px 0;
+  }
+
+  .wrapper {
+    width: 0%;
+    height: 70%;
+  }
+
+  .wrapper2 {
+    margin-top: -5%;
+    margin-left: 15px;
+    width: 90%;
+  }
+
+  .innerWrapper2 .h2 {
+    margin-top: 15px;
+  }
+  .innerWrapper2 h1 {
+    font-size: 10px;
+  }
+
+  .wrapper .innerWrapper {
+    opacity: 0;
+  }
+
+  .wrapper .logoContain {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    bottom: 20%;
+    left: 0;
+    position: relative;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    height: auto;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .link {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .logo {
+    margin-top: 15px;
+    padding-left: 0px;
+    font-size: 18px;
+  }
+
+  .link a {
+    margin: 5px 0;
+  }
+
+  .wrapper {
+    width: 0%;
+    height: 70%;
+  }
+
+  .wrapper2 {
+    margin-top: -5%;
+    margin-left: 15px;
+    width: 90%;
+  }
+
+  .innerWrapper2 .h2 {
+    margin-top: 15px;
+  }
+  .innerWrapper2 h1 {
+    font-size: 10px;
+  }
+
+  .wrapper .innerWrapper {
+    opacity: 0;
+  }
+
+  .wrapper .logoContain {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    bottom: 40%;
+    left: 0;
+    position: relative;
+  }
+}

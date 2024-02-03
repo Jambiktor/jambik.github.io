@@ -1,0 +1,96 @@
+.container {
+  width: 65%;
+  margin: auto;
+}
+
+.container h2 {
+  line-height: 1.5;
+  font-weight: 700;
+  box-shadow: inset 0 0 0 0 #3f2305;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+    font-size 0.3s ease-in-out;
+}
+
+.container h2:hover {
+  border-radius: 5px 5px;
+  box-shadow: inset 350px 0 0 0 #ebe3d5;
+  color: #3f2305;
+  font-size: 25px;
+}
+
+.carousel-inner img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .containerfirst {
+    height: auto;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .link {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .logo {
+    margin-top: 15px;
+    padding-left: 0px;
+  }
+
+  .link a {
+    margin: 5px 0;
+  }
+
+  .container {
+    width: 90%;
+    padding: 0;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .container h2 {
+    font-size: 15px;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .carousel-caption p {
+    font-size: 8px;
+    margin: 0 0 3px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 15px;
+  }
+
+  .carousel-indicators li {
+    height: 0px;
+  }
+
+  .carousel-indicators .active {
+    height: 5px;
+  }
+}
+
+@media (max-width: 575px) {
+  .carousel-inner .item {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+
+  .carousel-inner img {
+    margin-top: 10px;
+    height: auto;
+  }
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITEC 50 SILVA</title>
+    <link rel="stylesheet" href="./style/AboutMe.css" />
+
+    <style>
+      body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #f3eeea;
+        font-family: "Montserrat", sans-serif;
+        caret-color: transparent;
+        overflow: hidden;
+      }
+
+      .loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .container {
+        width: 100%;
+        height: 75px;
+        background-color: #ebe3d5;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+      }
+
+      .link {
+        font-family: "Montserrat";
+        display: flex;
+        align-items: center;
+        caret-color: transparent;
+      }
+
+      a:link,
+      a:visited {
+        color: #3f2305;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+      }
+
+      a:hover {
+        color: #0080ff;
+      }
+
+      .logo {
+        font-size: 22px;
+        font-weight: bold;
+        cursor: default;
+        transition: color 0.3s ease-in-out, transform 0.5s ease-in-out;
+        caret-color: transparent;
+      }
+
+      .logo:hover {
+        color: rgba(255, 255, 255, 1);
+        transform: scale(1.5);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="loading-screen">Loading...</div>
+
+    <div class="container">
+      <div class="logo">Jambik</div>
+      <div class="link">
+        <a href="index.html">Main</a>
+        &nbsp;&nbsp;
+        <a href="Project.html">Project</a>
+        &nbsp;&nbsp;
+        <a href="AboutMe.html" style="font-size: 22px; font-weight: bold"
+          >About Me</a
+        >
+        &nbsp;&nbsp;
+        <a href="Contact.html">Contact</a>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="logoContain">
+        <a href="https://www.facebook.com/jambiktoru" target="_blank"
+          ><img
+            src="./icon/facebook-square-logo-204.png"
+            alt="facebook"
+            style="width: 50px"
+        /></a>
+        <a href="https://www.instagram.com/_k0riii/" target="_blank"
+          ><img
+            src="./icon/instagram-logo-204.png"
+            alt="instagram"
+            style="width: 50px"
+        /></a>
+      </div>
+      <div class="innerWrapper">
+        <img src="./image/1x1 copy.png" alt="jamberk" />
+      </div>
+    </div>
+
+    <div class="wrapper2">
+      <div class="innerWrapper2">
+        <h1 style="font-weight: 800; font-size: 50px; text-align: center">
+          HI <span style="color: #579bb1">!</span>
+        </h1>
+        <h2 class="h2" style="text-align: center">
+          Here's who I am & what I do
+        </h2>
+        <hr style="width: 40%" />
+        <h3>
+          Name:
+          <span style="font-weight: 400; margin-left: 10px"
+            >John Victor Silva</span
+          >
+        </h3>
+        <h3>
+          Age:
+          <span style="font-weight: 400; margin-left: 10px">21 Years Old</span>
+        </h3>
+        <hr style="width: 40%" />
+
+        <h2 class="h2" style="text-align: center">Education</h2>
+        <hr style="width: 40%" />
+        <h3>
+          Elementary:
+          <span style="font-weight: 400; margin-left: 10px"
+            >Florentino Joya Elementary School</span
+          >
+        </h3>
+        <h3>
+          High School:
+          <span style="font-weight: 400; margin-left: 10px"
+            >Tanza National Trade School</span
+          >
+        </h3>
+        <h3>
+          Senior High School:
+          <span style="font-weight: 400; margin-left: 10px"
+            >Holy Nazarene Christian School</span
+          >
+        </h3>
+
+        <hr style="width: 40%" />
+        <h2 class="h2" style="text-align: center">Interest</h2>
+        <div class="hobby">
+          <h4>PUBG</h4>
+          <h4>DEAD BY DAYLIGHT</h4>
+          <h4>CYCLING</h4>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      window.addEventListener("load", function () {
+        setTimeout(function () {
+          document.body.style.overflow = "visible";
+          document.querySelector(".loading-screen").style.display = "none";
+        }, 500);
+      });
+    </script>
+  </body>
+</html>
